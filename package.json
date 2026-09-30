@@ -12,5 +12,10 @@
     "smoke": "npm run smoke --workspace frontend",
     "test:compass": "node scripts/testCompass.mjs",
     "install:frontend": "npm install --workspace frontend"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.879.0",
+    "@aws-sdk/lib-dynamodb": "^3.879.0",
+    "dotenv": "^16.4.7"
   }
 }
